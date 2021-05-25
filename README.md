@@ -2,15 +2,14 @@
 
 A simple movie search application, made for the course "XML programming"
 
-## Getting Started
+# About
+This is a simple Flutter app which I made for the purpose of a university course called "XML programming".
+You can see popular movies, and also search for specific movies and see details about the one you are most interested in.
 
-This project is a starting point for a Flutter application.
+I used BLoC with Freezed for state management and implemented basic layer separation 
+The app uses TMDB API for searching, so you need an API key if you wish to use the application yourself.
 
-A few resources to get you started if this is your first Flutter project:
+When you have the API key, create a new file inside the main folder as "api_key.dart" and inside of it create a new line:
+"const API_KEY = "PUT_KEY_HERE";"
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](movie_search.gif)
